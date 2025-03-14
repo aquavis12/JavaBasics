@@ -12,9 +12,10 @@ public class ObjectOops {
 	public void myMethodp() {
 		System.out.println("Public"); // need to create the objects
 	}
+	
+	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		ObjectOops newObject = new ObjectOops();//Object creation
 		ObjectOops newObject2 = new ObjectOops();
@@ -26,6 +27,12 @@ public class ObjectOops {
 		myMethod();
 		newObject.myMethodp();
 		
+
+		
 	}
+	
+
+
 
 }
+
