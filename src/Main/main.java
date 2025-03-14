@@ -46,7 +46,7 @@ public class main {
 		System.out.println(myVar3);
 		
 		
-	
+	          //Automatic casting
 			    int myInt = 9;
 			    double myDouble = myInt; // Automatic casting: int to double
 
@@ -55,14 +55,14 @@ public class main {
 
 
 			    
-
+                //manual casting
 			    double myNewDouble = 9.78d;
 			    int myNewInt = (int) myNewDouble; // Manual casting: double to int
 
 			    System.out.println(myNewDouble);   // Outputs 9.78
 			    System.out.println(myNewInt);   
 			    
-			    
+			    //Ternary operator
 			    int time = 20;
 			    String result;
 			    result = (time < 18) ? "Good day." : "Good evening.";
@@ -70,7 +70,7 @@ public class main {
 			    
 			    
 			    
-			    
+			    //Switch Case
 			    int day = 4;
 			    switch (day) {
 			      case 6:
@@ -83,7 +83,7 @@ public class main {
 			        System.out.println("Looking forward to the Weekend");
 	}
 			    
-			    
+			    //While loop 
 			    int i = 0;
 			    while (i < 5) {
 			      System.out.println(i);
